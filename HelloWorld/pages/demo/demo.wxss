@@ -1,0 +1,5 @@
+/* pages/demo/demo.wxss */
+button{
+    color: #00FFFF
+    
+}

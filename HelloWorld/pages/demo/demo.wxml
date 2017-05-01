@@ -1,0 +1,33 @@
+<form bindsubmit="formSubmit" bindrest="fromRest">
+  <view class="section section_gap">
+    <view class="section__title">switch</view>
+    <switch type="switch" name="switch" />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">slider</view>
+    <slider type="slider" name="show-value" ></slider>
+  </view>
+
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="input" placeholder="please input here" />
+  </view>
+  <view class="section section__gap">
+    <view class="section__tilte">radio</view>
+    <radio-group>
+        <label><radio value="radio1">radio1</radio></label>
+        <label><radio value="radio2">radio2</radio></label>
+    </radio-group>
+  </view>
+  <view class="section section__gap">
+    <view class="section__title">checkbox</view>
+    <checkbox-group name="checkbox">
+        <label><checkbox value="checkbox1">checkbox1</checkbox></label>
+        <label><checkbox value="checkbox2">checkbox2</checkbox></label>
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>
